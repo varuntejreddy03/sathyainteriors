@@ -6,19 +6,31 @@ const testimonials = [
     name: 'Ramesh & Sunita',
     location: 'Puttaparthi',
     text: 'Sathya Interiors transformed our home beautifully. The attention to detail was exceptional. Every corner reflects elegance and thoughtful design.',
-    image: '/09112025 -CD-Anoop and family/15.jpg'
+    image: '/Bedroom_-_Main_tstccu.jpg.jpeg'
   },
   {
     name: 'Anil Kumar',
     location: 'Hyderabad',
     text: 'From the initial consultation to the final handover, the experience was seamless. Our modular kitchen is the highlight of our house now!',
-    image: '/804 Ms Shubra final 2d drawing/1.jpg'
+    image: '/Kitchen_-_Main_jmcaz7.jpg.jpeg'
   },
   {
     name: 'Priya & Venkat',
     location: 'Anantapur',
     text: 'We were looking for quality interiors at a transparent price and Sathya Interiors delivered beyond expectations. Highly recommended!',
-    image: '/Tanu Interior Designs (1)/30.jpg'
+    image: '/Living_Room_Main_dius4h.jpg.jpeg'
+  },
+  {
+    name: 'Deepak Sharma',
+    location: 'Bangalore',
+    text: 'The team at Sathya Interiors understood our vision perfectly and executed it flawlessly. Our pooja room is now a sacred sanctuary we cherish daily.',
+    image: '/pooja-room-designs.jpg'
+  },
+  {
+    name: 'Meera & Rajesh',
+    location: 'Pune',
+    text: 'Outstanding craftsmanship and professionalism! The wardrobe design maximized our space beautifully. We couldn\'t be happier with the results.',
+    image: '/Wardrobe_-_Main_b9lplx.jpg.jpeg'
   },
 ]
 
@@ -62,7 +74,7 @@ const Testimonials = () => {
 
         .testimonials-grid {
           display: grid;
-          grid-template-columns: repeat(3, 1fr);
+          grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
           gap: 30px;
           margin-top: 60px;
         }
@@ -144,10 +156,13 @@ const Testimonials = () => {
 
         @media (max-width: 992px) {
           .testimonials-grid { 
-            grid-template-columns: 1fr; 
-            max-width: 600px; 
-            margin-left: auto; 
-            margin-right: auto; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          }
+        }
+
+        @media (max-width: 600px) {
+          .testimonials-grid { 
+            grid-template-columns: 1fr;
           }
         }
       `}</style>

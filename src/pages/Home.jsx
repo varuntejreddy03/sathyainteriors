@@ -1,10 +1,11 @@
 import React from 'react'
 import Hero from '../sections/Hero'
 import ImageShowcase from '../sections/ImageShowcase'
-import PoojaUnitsHighlight from '../sections/PoojaUnitsHighlight'
 import ServicesSection from '../sections/ServicesSection'
+import PoojaUnitsHighlight from '../sections/PoojaUnitsHighlight'
 import WhyChooseUs from '../sections/WhyChooseUs'
 import AboutSection from '../sections/AboutSection'
+import TrustedBrands from '../sections/TrustedBrands'
 import Testimonials from '../sections/Testimonials'
 
 function Home() {
@@ -32,10 +33,11 @@ function Home() {
     <div className="home-page-content">
       <Hero />
       <ImageShowcase />
+      <ServicesSection />
       <PoojaUnitsHighlight />
-      <div className="section-animate"><ServicesSection /></div>
       <div className="section-animate"><WhyChooseUs /></div>
       <div className="section-animate"><AboutSection /></div>
+      <TrustedBrands />
       <div className="section-animate"><Testimonials /></div>
     </div>
   )

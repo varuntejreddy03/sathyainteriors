@@ -4,12 +4,12 @@ const PoojaUnitsHighlight = () => {
   const poojaUnits = [
     {
       id: 1,
-      image: '/pooja-room-designs.jpg',
+      image: '/poojaunit1.jpg',
       alt: 'Pooja Unit 1'
     },
     {
       id: 2,
-      image: '/pooja-room-designs1.jpg',
+      image: '/poojunit2.jpg',
       alt: 'Pooja Unit 2'
     },
     {
