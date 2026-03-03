@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, Award, Users, Target, Heart, ArrowLeft } from 'lucide-react'
-import CraftsmanshipSection from '../sections/CraftsmanshipSection'
+import ServicesSection from '../sections/ServicesSection'
 import './pages.css'
 
 function About() {
@@ -23,7 +23,7 @@ function About() {
       <section style={{ padding: '100px 0', background: 'var(--black)' }}>
         <div className="about-grid">
           <div className="about-image-wrapper">
-            <img src="/hero-bg.png" alt="Interior Design" className="about-image" />
+            <img src="/Living_Room_Main_dius4h.jpg.jpeg" alt="Interior Design" className="about-image" />
             <div className="about-image-border"></div>
           </div>
           <div>
@@ -65,8 +65,8 @@ function About() {
         </div>
       </section>
 
-      {/* Craftsmanship Section */}
-      <CraftsmanshipSection />
+      {/* Our Interior Design Services Section */}
+      <ServicesSection />
 
       {/* Image Gallery */}
       <section style={{ padding: '100px 0', background: 'var(--black)' }}>

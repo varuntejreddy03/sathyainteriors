@@ -7,7 +7,7 @@ const AboutSection = () => {
     <section className="about-section">
       <div className="about-container">
         <div className="about-image">
-          <img src="/hero-bg.png" alt="Interior Design" />
+          <img src="/Living_Room_Main_dius4h.jpg.jpeg" alt="Interior Design" />
           <div className="image-frame"></div>
         </div>
         <div className="about-content">
