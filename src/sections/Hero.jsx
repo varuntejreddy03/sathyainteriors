@@ -14,13 +14,13 @@ const Hero = () => {
           <div className="gold-accent-line"></div>
           <div className="hero-text">
             <h1 className="hero-main fade-up">
-              Transform Your Space Into
+              Design • Build • Transform
             </h1>
             <h2 className="hero-italic fade-up" style={{ animationDelay: '0.2s' }}>
-              Timeless Elegance
+              Your Dream Space
             </h2>
             <p className="hero-sub fade-up" style={{ animationDelay: '0.4s' }}>
-              Award-Winning Interior Design · 250+ Happy Homes · Premium Quality Guaranteed
+              Premium interior solutions crafted for modern living.
             </p>
             <div className="hero-actions fade-up" style={{ animationDelay: '0.6s' }}>
               <Link to="/contact" className="btn-primary">
@@ -30,7 +30,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="hero-stats fade-up" style={{ animationDelay: '0.8s' }}>
           <div className="stat">
             <h3 className="counter">250+</h3>
@@ -42,9 +42,9 @@ const Hero = () => {
             <p>Years Experience</p>
           </div>
           <div className="stat-divider"></div>
-          <div className="stat">
-            <h3 className="counter">100%</h3>
-            <p>Client Satisfaction</p>
+          <div className="stat" style={{ textAlign: 'left' }}>
+            <h3 className="counter">45 Days</h3>
+            <p>100% Client Satisfaction – Delivery from our modular factory</p>
           </div>
         </div>
       </div>

@@ -3,34 +3,40 @@ import { Star } from 'lucide-react'
 
 const testimonials = [
   {
-    name: 'Ramesh & Sunita',
+    name: 'Sunita',
     location: 'Puttaparthi',
     text: 'Sathya Interiors transformed our home beautifully. The attention to detail was exceptional. Every corner reflects elegance and thoughtful design.',
     image: '/Bedroom_-_Main_tstccu.jpg.jpeg'
   },
   {
-    name: 'Anil Kumar',
-    location: 'Hyderabad',
-    text: 'From the initial consultation to the final handover, the experience was seamless. Our modular kitchen is the highlight of our house now!',
-    image: '/Kitchen_-_Main_jmcaz7.jpg.jpeg'
+    name: 'Meera & Rajesh',
+    location: 'Puttaparthi',
+    text: 'Outstanding craftsmanship and professionalism! The wardrobe design maximized our space beautifully. We couldn\'t be happier with the results.',
+    image: '/Wardrobe_-_Main_b9lplx.jpg.jpeg'
   },
   {
-    name: 'Priya & Venkat',
-    location: 'Anantapur',
-    text: 'We were looking for quality interiors at a transparent price and Sathya Interiors delivered beyond expectations. Highly recommended!',
-    image: '/Living_Room_Main_dius4h.jpg.jpeg'
+    name: 'Anil Kumar',
+    location: 'Hyderabad',
+    text: 'Seamless experience from initial consultation to final delivery. Our modular kitchen with island is the highlight of our house now!',
+    image: '/island-kitchen.png'
   },
   {
     name: 'Deepak Sharma',
     location: 'Bangalore',
-    text: 'The team at Sathya Interiors understood our vision perfectly and executed it flawlessly. Our pooja room is now a sacred sanctuary we cherish daily.',
-    image: '/pooja-room-designs.jpg'
+    text: 'Sathya Interiors understood our vision perfectly. The 45-day delivery promise was met with incredible precision and high-quality finishes.',
+    image: '/portfolio-new/MBR View.jpg'
   },
   {
-    name: 'Meera & Rajesh',
-    location: 'Pune',
-    text: 'Outstanding craftsmanship and professionalism! The wardrobe design maximized our space beautifully. We couldn\'t be happier with the results.',
-    image: '/Wardrobe_-_Main_b9lplx.jpg.jpeg'
+    name: 'Dr. Sandeep',
+    location: 'Bangalore',
+    text: 'A complete transformation of our apartment space. The team managed the logistics perfectly, and the end product feels like a luxury resort. Five stars!',
+    image: '/portfolio-new/Entrance View.jpg'
+  },
+  {
+    name: 'Priya & Venkat',
+    location: 'Anantapur',
+    text: 'We were looking for quality interiors with a professional touch. Every corner reflects elegance and thoughtful design. Highly recommended!',
+    image: '/portfolio-new/Pooja Unit.jpg'
   },
 ]
 

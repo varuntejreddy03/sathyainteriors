@@ -97,7 +97,7 @@ function Contact() {
                   <option value="Pooja Units">Pooja Units</option>
                   <option value="TV Units">TV Units</option>
                   <option value="Wardrobes">Wardrobes</option>
-                  <option value="CNC Doors & Paneling">CNC Doors & Paneling</option>
+                  <option value="CNC Doors & Curtains">CNC Doors & Curtains</option>
                   <option value="False Ceiling & Wallpapers">False Ceiling & Wallpapers</option>
                 </select>
               </div>

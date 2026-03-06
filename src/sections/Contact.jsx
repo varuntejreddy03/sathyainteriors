@@ -77,7 +77,7 @@ const Contact = () => {
                   <option>TV Unit</option>
                   <option>Pooja Unit</option>
                   <option>Wardrobes</option>
-                  <option>CNC Doors</option>
+                  <option>CNC Doors & Curtains</option>
                   <option>Bedroom & Living</option>
                   <option>False Ceiling</option>
                   <option>Painting & Wallpapers</option>

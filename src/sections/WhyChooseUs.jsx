@@ -2,10 +2,10 @@ import React from 'react'
 import { Award, Clock, Shield, TrendingUp } from 'lucide-react'
 
 const reasons = [
-  { icon: <Award size={48} />, title: 'Award-Winning Designs', desc: 'Recognized for excellence in interior design with multiple industry awards and certifications.' },
-  { icon: <Shield size={48} />, title: '100% Quality Guarantee', desc: 'Premium materials, expert craftsmanship, and lifetime warranty on all our work.' },
+  { icon: <Shield size={48} />, title: '100% Quality Guarantee', desc: 'Premium materials, expert craftsmanship, and Free Service Support on all our work.' },
   { icon: <Clock size={48} />, title: 'On-Time Delivery', desc: 'We value your time. Projects completed within agreed timelines, every single time.' },
   { icon: <TrendingUp size={48} />, title: 'Best Value for Money', desc: 'Transparent pricing with no hidden costs. Get premium quality at competitive rates.' },
+  { icon: <Award size={48} />, title: 'Modular Factory', desc: '100% Client Satisfaction – Delivered within 45 days from our modular factory.' },
 ]
 
 const WhyChooseUs = () => {

@@ -2,21 +2,9 @@ import React from 'react'
 
 const PoojaUnitsHighlight = () => {
   const poojaUnits = [
-    {
-      id: 1,
-      image: '/poojaunit1.jpg',
-      alt: 'Pooja Unit 1'
-    },
-    {
-      id: 2,
-      image: '/poojunit2.jpg',
-      alt: 'Pooja Unit 2'
-    },
-    {
-      id: 3,
-      image: '/simple-pooja-room-designs.jpg',
-      alt: 'Pooja Unit 3'
-    }
+    { id: 3, image: '/simple-pooja-room-designs.jpg', alt: 'Pooja Unit 3' },
+    { id: 4, image: '/newpooja1.jpg', alt: 'Pooja Unit 4' },
+    { id: 5, image: '/newpooja2.jpg', alt: 'Pooja Unit 5' }
   ]
 
   return (
@@ -76,8 +64,9 @@ const PoojaUnitsHighlight = () => {
 
         .pooja-cards-grid {
           display: grid;
-          grid-template-columns: repeat(3, 1fr);
+          grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
           gap: 30px;
+          justify-content: center;
         }
 
         .pooja-card {

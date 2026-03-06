@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
 
 const allServices = [
-  { id: 1, title: 'Modular Kitchens', category: 'Functional Areas', featured: true, image: '/Kitchen_-_Main_jmcaz7.jpg.jpeg', features: ['Modern', 'Storage Solutions', 'Custom Design'] },
+  { id: 1, title: 'Island Kitchen with Breakfast Counter', category: 'Functional Areas', featured: true, image: '/island-kitchen.png', features: ['Modern', 'Storage Solutions', 'Custom Design'] },
   { id: 2, title: 'Personalized Bedrooms', category: 'Private Spaces', featured: true, image: '/Bedroom_-_Main_tstccu.jpg.jpeg', features: ['Luxury', 'Comfort', 'Lighting'] },
-  { id: 3, title: 'Functional Wardrobes', category: 'Private Spaces', featured: false, image: '/Wardrobe_-_Main_b9lplx.jpg.jpeg', features: ['Organization', 'Walk-in Closets', 'Glass Designs'] },
-  { id: 4, title: 'Functional Kids Room', category: 'Specialized', featured: false, image: '/Bedroom_-_Main_tstccu.jpg.jpeg', features: ['Playful', 'Safe Design', 'Smart Storage'] },
-  { id: 5, title: 'Living Room Interiors', category: 'Living Spaces', featured: true, image: '/Living_Room_Main_dius4h.jpg.jpeg', features: ['Warmth', 'Statement Walls', 'Custom Furniture'] },
+  { id: 3, title: 'Functional Wardrobes', category: 'Private Spaces', featured: false, image: '/optimized-images/portfolio/Tanu Interior Designs_page-0058.webp', features: ['Organization', 'Walk-in Closets', 'Glass Designs'] },
+  { id: 4, title: 'Functional Kids Room', category: 'Premium Designs', featured: false, image: '/optimized-images/transforming/3D Docket_page-0024.webp', features: ['Playful', 'Safe Design', 'Smart Storage'] },
+  { id: 5, title: 'Living Room Interiors', category: 'Living Spaces', featured: true, image: '/portfolio-new/Living Area View.jpg', features: ['Warmth', 'Statement Walls', 'Custom Furniture'] },
   { id: 6, title: 'Elegant Entertainment Units', category: 'Living Spaces', featured: false, image: '/Home_Theatre_y91b4f.jpg.jpeg', features: ['Entertainment', 'Display', 'Modern'] },
-  { id: 7, title: 'Divine Pooja Rooms', category: 'Specialized', featured: false, image: '/poojaunit1.jpg', features: ['Sacred', 'Traditional', 'Minimalist'] },
-  { id: 8, title: 'Functional Home Office Designs', category: 'Functional Areas', featured: false, image: '/Cozy_Office_Space_eyl5bc.jpg.jpeg', features: ['Ergonomic', 'Productivity', 'Organization'] },
-  { id: 9, title: 'Complete Home Makeovers', category: 'Specialized', featured: true, image: '/Living_Room_Main_dius4h.jpg.jpeg', features: ['Complete Solutions', 'Cohesive Design', 'Full Service'] },
+  { id: 7, title: 'Divine Pooja Rooms', category: 'Premium Designs', featured: false, image: '/poojaunit1.jpg', features: ['Sacred', 'Traditional', 'Minimalist'] },
+  { id: 8, title: 'Functional Home Office Designs', category: 'Functional Areas', featured: false, image: '/optimized-images/transforming/4cd0606eab783091f27ecf06032002af.webp', features: ['Ergonomic', 'Productivity', 'Organization'] },
+  { id: 9, title: 'End-to-End Home Interiors', category: 'Premium Designs', featured: true, image: '/Living_Room_Main_dius4h.jpg.jpeg', features: ['Complete Solutions', 'Cohesive Design', 'Full Service'] },
 ]
 
-const categories = ['All', 'Living Spaces', 'Private Spaces', 'Functional Areas', 'Specialized']
+const categories = ['All', 'Living Spaces', 'Private Spaces', 'Functional Areas', 'Premium Designs']
 
 const ServicesSection = () => {
   const [activeCategory, setActiveCategory] = useState('All')

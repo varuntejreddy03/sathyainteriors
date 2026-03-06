@@ -1,15 +1,16 @@
 import React from 'react'
-import { ChefHat, Flower2, Tv, Shirt, DoorOpen, Layers, ArrowLeft } from 'lucide-react'
+import { ChefHat, Flower2, Tv, Shirt, DoorOpen, ArrowLeft, Baby, Briefcase } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 function Services() {
   const services = [
-    { icon: <ChefHat size={48} />, title: 'Modular Kitchens', desc: 'Custom-designed kitchens with premium materials and smart storage solutions that blend style with functionality.' },
+    { icon: <ChefHat size={48} />, title: 'Island Kitchen with Breakfast Counter', desc: 'Premium kitchen solutions featuring modern island designs and intelligent storage.' },
     { icon: <Flower2 size={48} />, title: 'Pooja Units', desc: 'Sacred spaces crafted with devotion, blending tradition with modern aesthetics for your spiritual corner.' },
     { icon: <Tv size={48} />, title: 'TV Units', desc: 'Sleek entertainment centers that combine style with functionality, perfect for modern living spaces.' },
-    { icon: <Shirt size={48} />, title: 'Wardrobes', desc: 'Spacious storage solutions designed to organize your lifestyle elegantly with custom configurations.' },
-    { icon: <DoorOpen size={48} />, title: 'CNC Doors & Paneling', desc: 'Precision-crafted doors and wall panels with intricate designs that add character to your interiors.' },
-    { icon: <Layers size={48} />, title: 'False Ceiling & Wallpapers', desc: 'Transform your spaces with stunning ceilings and designer wallpapers that create the perfect ambiance.' },
+    { icon: <Shirt size={48} />, title: 'Wardrobes', desc: 'Functional storage solutions designed to organize your lifestyle elegantly with custom configurations.' },
+    { icon: <Baby size={48} />, title: 'Functional Kids Room', desc: 'Playful, safe, and smart storage designs tailored for modern growing children.' },
+    { icon: <Briefcase size={48} />, title: 'Functional Home Office Designs', desc: 'Productive and ergonomic workspace solutions for the modern remote professional.' },
+    { icon: <DoorOpen size={48} />, title: 'CNC Doors & Curtains', desc: 'Precision-crafted doors and high-quality curtain installations that add character to your interiors.' },
   ]
 
   return (
@@ -51,7 +52,7 @@ function Services() {
           </Link>
         </div>
       </section>
-      
+
       <style jsx>{`
         .services-hero {
           padding: 150px 0 100px;

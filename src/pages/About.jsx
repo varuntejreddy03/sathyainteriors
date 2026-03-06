@@ -23,7 +23,7 @@ function About() {
       <section style={{ padding: '100px 0', background: 'var(--black)' }}>
         <div className="about-grid">
           <div className="about-image-wrapper">
-            <img src="/Living_Room_Main_dius4h.jpg.jpeg" alt="Interior Design" className="about-image" />
+            <img src="/optimized-images/transforming/3b2987fca1935ad6793011a3e56c2b3b.webp" alt="Interior Design" className="about-image" />
             <div className="about-image-border"></div>
           </div>
           <div>
@@ -67,31 +67,6 @@ function About() {
 
       {/* Our Interior Design Services Section */}
       <ServicesSection />
-
-      {/* Image Gallery */}
-      <section style={{ padding: '100px 0', background: 'var(--black)' }}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-            <span className="label-caps">OUR WORK</span>
-            <h2 className="section-heading">Transforming Spaces</h2>
-            <div className="gold-line"></div>
-          </div>
-          <div className="about-gallery-grid">
-            {[
-              '/09112025 -CD-Anoop and family/30.jpg',
-              '/804 Ms Shubra final 2d drawing/1.jpg',
-              '/Tanu Interior Designs (1)/30.jpg',
-              '/Tanu Interior Designs (1)/35.jpg',
-              '/09112025 -CD-Anoop and family/15.jpg',
-              '/Tanu Interior Designs (1)/40.jpg',
-            ].map((img, i) => (
-              <div key={i} className="about-gallery-item">
-                <img src={img} alt={`Project ${i + 1}`} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section style={{ padding: '100px 0', background: '#111', textAlign: 'center' }}>

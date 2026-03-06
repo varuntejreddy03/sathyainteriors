@@ -7,7 +7,7 @@ const AboutSection = () => {
     <section className="about-section">
       <div className="about-container">
         <div className="about-image">
-          <img src="/Living_Room_Main_dius4h.jpg.jpeg" alt="Interior Design" />
+          <img src="/optimized-images/transforming/3b2987fca1935ad6793011a3e56c2b3b.webp" alt="Interior Design" />
           <div className="image-frame"></div>
         </div>
         <div className="about-content">
@@ -15,9 +15,9 @@ const AboutSection = () => {
           <h2 className="about-heading">We Don't Just Design — We Create Homes That Feel Like You</h2>
           <div className="gold-rule"></div>
           <p className="about-text">
-            At Sathya Interiors, we believe every space tells a story. 
-            We specialize in interiors that reflect personality, purpose, and 
-            timeless design. From concept to completion, every detail is 
+            At Sathya Interiors, we believe every space tells a story.
+            We specialize in interiors that reflect personality, purpose, and
+            timeless design. From concept to completion, every detail is
             thoughtfully crafted to enhance your lifestyle.
           </p>
           <Link to="/about" className="about-link">

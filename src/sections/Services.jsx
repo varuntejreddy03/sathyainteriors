@@ -6,10 +6,9 @@ const services = [
   { icon: '🍽', title: 'Modular Kitchens', desc: 'Ergonomic, beautiful and fully customized kitchens built for your lifestyle.' },
   { icon: '👗', title: 'Wardrobes', desc: 'Walk-in or sliding — every wardrobe is designed for maximum space and elegance.' },
   { icon: '🛏', title: 'Bedroom & Living', desc: 'Complete room interiors that blend comfort, storage, and stunning aesthetics.' },
-  { icon: '🚪', title: 'CNC Doors & Panels', desc: 'Precision-cut CNC doors and wall panels that add depth and character to any room.' },
+  { icon: '🚪', title: 'CNC Doors & Curtains', desc: 'Precision-cut CNC doors and elegant curtain solutions that add depth and character to any room.' },
   { icon: '🏠', title: 'False Ceiling', desc: 'Elegant false ceiling designs with ambient lighting that transform your space.' },
   { icon: '⚡', title: 'Electrical Work', desc: 'Professional electrical installations with concealed wiring and smart switches.' },
-  { icon: '🎨', title: 'Painting & Wallpapers', desc: 'Premium paints and curated wallpapers for walls that speak luxury.' },
 ]
 
 const Services = () => {
