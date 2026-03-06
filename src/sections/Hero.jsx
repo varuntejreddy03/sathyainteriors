@@ -44,7 +44,7 @@ const Hero = () => {
           <div className="stat-divider"></div>
           <div className="stat" style={{ textAlign: 'left' }}>
             <h3 className="counter">45 Days</h3>
-            <p>100% Client Satisfaction – Delivery from our modular factory</p>
+            <p>Delivery from Modular Factory</p>
           </div>
         </div>
       </div>

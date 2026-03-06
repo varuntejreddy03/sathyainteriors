@@ -7,7 +7,7 @@ const allServices = [
   { id: 4, title: 'Functional Kids Room', category: 'Premium Designs', featured: false, image: '/optimized-images/transforming/3D Docket_page-0024.webp', features: ['Playful', 'Safe Design', 'Smart Storage'] },
   { id: 5, title: 'Living Room Interiors', category: 'Living Spaces', featured: true, image: '/portfolio-new/Living Area View.jpg', features: ['Warmth', 'Statement Walls', 'Custom Furniture'] },
   { id: 6, title: 'Elegant Entertainment Units', category: 'Living Spaces', featured: false, image: '/Home_Theatre_y91b4f.jpg.jpeg', features: ['Entertainment', 'Display', 'Modern'] },
-  { id: 7, title: 'Divine Pooja Rooms', category: 'Premium Designs', featured: false, image: '/poojaunit1.jpg', features: ['Sacred', 'Traditional', 'Minimalist'] },
+  { id: 7, title: 'Divine Pooja Rooms', category: 'Premium Designs', featured: false, image: '/simple-pooja-room-designs.jpg', features: ['Sacred', 'Traditional', 'Minimalist'] },
   { id: 8, title: 'Functional Home Office Designs', category: 'Functional Areas', featured: false, image: '/optimized-images/transforming/4cd0606eab783091f27ecf06032002af.webp', features: ['Ergonomic', 'Productivity', 'Organization'] },
   { id: 9, title: 'End-to-End Home Interiors', category: 'Premium Designs', featured: true, image: '/Living_Room_Main_dius4h.jpg.jpeg', features: ['Complete Solutions', 'Cohesive Design', 'Full Service'] },
 ]
