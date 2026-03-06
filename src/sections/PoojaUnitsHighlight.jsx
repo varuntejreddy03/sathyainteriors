@@ -2,7 +2,7 @@ import React from 'react'
 
 const PoojaUnitsHighlight = () => {
   const poojaUnits = [
-    { id: 1, image: '/poojacard.jpg', alt: 'Pooja Unit Left' },
+    { id: 4, image: '/pooja-sai-baba.png', alt: 'Sathya Sai Baba Pooja Unit' },
     { id: 2, image: '/shiva godimage.jpg', alt: 'Shiva Pooja Unit' },
     { id: 3, image: '/pooja-om-backlit.png', alt: 'Premium Om Backlit Pooja Unit' }
   ]

@@ -9,6 +9,7 @@ const services = [
   { icon: '🧸', title: 'Functional kids room', desc: 'Playful, safe, and smart storage designs tailored for modern growing children.' },
   { icon: '🚪', title: 'CNC doors & Curtains', desc: 'Precision-cut CNC doors and elegant curtain solutions that complete your home decor.' },
   { icon: '💎', title: 'False Ceilings', desc: 'Elegant ceiling designs with ambient lighting to elevate the aura of any room.' },
+  { icon: '🎨', title: 'Painting and Wallpapers', desc: 'Premium wall finishes and luxury wallpapers that add depth and personality to your space.' },
 ]
 
 const Services = () => {

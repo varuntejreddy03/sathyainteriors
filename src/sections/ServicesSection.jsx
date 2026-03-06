@@ -9,6 +9,7 @@ const allServices = [
   { id: 6, title: 'Functional kids room', category: 'Premium Designs', featured: false, image: '/optimized-images/transforming/3D Docket_page-0024.webp', features: ['Playful', 'Safe', 'Smart Storage'] },
   { id: 7, title: 'CNC doors & Curtains', category: 'Premium Designs', featured: false, image: '/portfolio-new/CNC Door Design.jpg', features: ['Artistic', 'Intricate', 'Complete'] },
   { id: 8, title: 'False Ceilings', category: 'Functional Areas', featured: false, image: '/portfolio-new/False Ceiling View...jpg', features: ['Ambient', 'Modern', 'Style'] },
+  { id: 9, title: 'Painting and Wallpapers', category: 'Premium Designs', featured: false, image: '/wallpaper-painting.png', features: ['Luxury Finish', 'Curated Art', 'Wall Decor'] },
 ]
 
 const categories = ['All', 'Living Spaces', 'Private Spaces', 'Functional Areas', 'Premium Designs']
