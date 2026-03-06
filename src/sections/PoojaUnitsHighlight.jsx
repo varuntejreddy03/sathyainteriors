@@ -2,9 +2,9 @@ import React from 'react'
 
 const PoojaUnitsHighlight = () => {
   const poojaUnits = [
-    { id: 3, image: '/simple-pooja-room-designs.jpg', alt: 'Pooja Unit 3' },
-    { id: 4, image: '/newpooja1.jpg', alt: 'Pooja Unit 4' },
-    { id: 5, image: '/newpooja2.jpg', alt: 'Pooja Unit 5' }
+    { id: 1, image: '/poojacard.jpg', alt: 'Pooja Unit Left' },
+    { id: 2, image: '/shiva godimage.jpg', alt: 'Shiva Pooja Unit' },
+    { id: 3, image: '/newpooja1.jpg', alt: 'Pooja Unit Right' }
   ]
 
   return (
