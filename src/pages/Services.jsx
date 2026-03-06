@@ -1,16 +1,17 @@
 import React from 'react'
-import { ChefHat, Flower2, Tv, Shirt, DoorOpen, ArrowLeft, Baby, Briefcase } from 'lucide-react'
+import { Flower2, Tv, ChefHat, Shirt, Baby, DoorOpen, Layout, Grid, ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 function Services() {
   const services = [
-    { icon: <ChefHat size={48} />, title: 'Island Kitchen with Breakfast Counter', desc: 'Premium kitchen solutions featuring modern island designs and intelligent storage.' },
-    { icon: <Flower2 size={48} />, title: 'Pooja Units', desc: 'Sacred spaces crafted with devotion, blending tradition with modern aesthetics for your spiritual corner.' },
-    { icon: <Tv size={48} />, title: 'TV Units', desc: 'Sleek entertainment centers that combine style with functionality, perfect for modern living spaces.' },
-    { icon: <Shirt size={48} />, title: 'Wardrobes', desc: 'Functional storage solutions designed to organize your lifestyle elegantly with custom configurations.' },
-    { icon: <Baby size={48} />, title: 'Functional Kids Room', desc: 'Playful, safe, and smart storage designs tailored for modern growing children.' },
-    { icon: <Briefcase size={48} />, title: 'Functional Home Office Designs', desc: 'Productive and ergonomic workspace solutions for the modern remote professional.' },
-    { icon: <DoorOpen size={48} />, title: 'CNC Doors & Curtains', desc: 'Precision-crafted doors and high-quality curtain installations that add character to your interiors.' },
+    { icon: <Flower2 size={48} />, title: 'Pooja Units', desc: 'Sacred spaces crafted with devotion, blending tradition with modern aesthetics.' },
+    { icon: <Tv size={48} />, title: 'TV Units', desc: 'Sleek entertainment centers that combine style with functionality for modern living.' },
+    { icon: <ChefHat size={48} />, title: 'Modular Kitchens', desc: 'Ergonomic and beautiful custom kitchens built for your lifestyle and efficiency.' },
+    { icon: <Shirt size={48} />, title: 'Wardrobes', desc: 'Functional storage solutions designed to organize your lifestyle elegantly.' },
+    { icon: <Layout size={48} />, title: 'Foyer Designs', desc: 'Stunning entrance designs that create a lasting first impression for your home.' },
+    { icon: <Baby size={48} />, title: 'Functional kids room', desc: 'Playful, safe, and smart storage designs tailored for growing children.' },
+    { icon: <DoorOpen size={48} />, title: 'CNC doors & Curtains', desc: 'Precision-crafted doors and high-quality curtain installations for a complete look.' },
+    { icon: <Grid size={48} />, title: 'False Ceilings', desc: 'Elegant ceiling designs with ambient lighting to transform the mood of any room.' },
   ]
 
   return (

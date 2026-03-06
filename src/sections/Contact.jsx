@@ -73,15 +73,14 @@ const Contact = () => {
               <div className="form-group">
                 <label>Service Required</label>
                 <select>
-                  <option>Modular Kitchen</option>
-                  <option>TV Unit</option>
-                  <option>Pooja Unit</option>
+                  <option>Modular Kitchens</option>
+                  <option>Pooja Units</option>
+                  <option>TV Units</option>
                   <option>Wardrobes</option>
-                  <option>CNC Doors & Curtains</option>
-                  <option>Bedroom & Living</option>
-                  <option>False Ceiling</option>
-                  <option>Painting & Wallpapers</option>
-                  <option>Complete Interior</option>
+                  <option>Foyer Designs</option>
+                  <option>Functional kids room</option>
+                  <option>CNC doors & Curtains</option>
+                  <option>False Ceilings</option>
                   <option>Other</option>
                 </select>
               </div>

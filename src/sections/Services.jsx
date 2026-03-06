@@ -1,14 +1,14 @@
 import React from 'react'
 
 const services = [
-  { icon: '🛕', title: 'Pooja Units', desc: 'Sacred spaces designed with devotion, blending traditional motifs with modern craftsmanship.' },
-  { icon: '📺', title: 'TV Units', desc: 'Sleek entertainment walls with integrated storage, LED backlighting, and premium finishes.' },
-  { icon: '🍽', title: 'Modular Kitchens', desc: 'Ergonomic, beautiful and fully customized kitchens built for your lifestyle.' },
-  { icon: '👗', title: 'Wardrobes', desc: 'Walk-in or sliding — every wardrobe is designed for maximum space and elegance.' },
-  { icon: '🛏', title: 'Bedroom & Living', desc: 'Complete room interiors that blend comfort, storage, and stunning aesthetics.' },
-  { icon: '🚪', title: 'CNC Doors & Curtains', desc: 'Precision-cut CNC doors and elegant curtain solutions that add depth and character to any room.' },
-  { icon: '🏠', title: 'False Ceiling', desc: 'Elegant false ceiling designs with ambient lighting that transform your space.' },
-  { icon: '⚡', title: 'Electrical Work', desc: 'Professional electrical installations with concealed wiring and smart switches.' },
+  { icon: '🛕', title: 'Pooja Units', desc: 'Sacred spaces designed with devotion, blending tradition with modern aesthetics.' },
+  { icon: '📺', title: 'TV Units', desc: 'Sleek entertainment walls with integrated storage and premium finishes for modern living.' },
+  { icon: '🍽', title: 'Modular Kitchens', desc: 'Ergonomic, beautiful and fully customized kitchens built for your specialized lifestyle.' },
+  { icon: '👗', title: 'Wardrobes', desc: 'Custom storage solutions designed for maximum space, organization, and elegance.' },
+  { icon: '🏠', title: 'Foyer Designs', desc: 'Impeccable entrance designs that make a grand statement for your home.' },
+  { icon: '🧸', title: 'Functional kids room', desc: 'Playful, safe, and smart storage designs tailored for modern growing children.' },
+  { icon: '🚪', title: 'CNC doors & Curtains', desc: 'Precision-cut CNC doors and elegant curtain solutions that complete your home decor.' },
+  { icon: '💎', title: 'False Ceilings', desc: 'Elegant ceiling designs with ambient lighting to elevate the aura of any room.' },
 ]
 
 const Services = () => {

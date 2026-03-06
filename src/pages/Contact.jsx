@@ -97,8 +97,10 @@ function Contact() {
                   <option value="Pooja Units">Pooja Units</option>
                   <option value="TV Units">TV Units</option>
                   <option value="Wardrobes">Wardrobes</option>
-                  <option value="CNC Doors & Curtains">CNC Doors & Curtains</option>
-                  <option value="False Ceiling & Wallpapers">False Ceiling & Wallpapers</option>
+                  <option value="Foyer Designs">Foyer Designs</option>
+                  <option value="Functional kids room">Functional kids room</option>
+                  <option value="CNC doors & Curtains">CNC doors & Curtains</option>
+                  <option value="False Ceilings">False Ceilings</option>
                 </select>
               </div>
               <div style={{ marginBottom: '25px' }}>

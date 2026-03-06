@@ -1,15 +1,14 @@
 import React, { useState } from 'react'
 
 const allServices = [
-  { id: 1, title: 'Island Kitchen with Breakfast Counter', category: 'Functional Areas', featured: true, image: '/island-kitchen.png', features: ['Modern', 'Storage Solutions', 'Custom Design'] },
-  { id: 2, title: 'Personalized Bedrooms', category: 'Private Spaces', featured: true, image: '/Bedroom_-_Main_tstccu.jpg.jpeg', features: ['Luxury', 'Comfort', 'Lighting'] },
-  { id: 3, title: 'Functional Wardrobes', category: 'Private Spaces', featured: false, image: '/optimized-images/portfolio/Tanu Interior Designs_page-0058.webp', features: ['Organization', 'Walk-in Closets', 'Glass Designs'] },
-  { id: 4, title: 'Functional Kids Room', category: 'Premium Designs', featured: false, image: '/optimized-images/transforming/3D Docket_page-0024.webp', features: ['Playful', 'Safe Design', 'Smart Storage'] },
-  { id: 5, title: 'Living Room Interiors', category: 'Living Spaces', featured: true, image: '/portfolio-new/Living Area View.jpg', features: ['Warmth', 'Statement Walls', 'Custom Furniture'] },
-  { id: 6, title: 'Elegant Entertainment Units', category: 'Living Spaces', featured: false, image: '/Home_Theatre_y91b4f.jpg.jpeg', features: ['Entertainment', 'Display', 'Modern'] },
-  { id: 7, title: 'Divine Pooja Rooms', category: 'Premium Designs', featured: false, image: '/poojacard.jpg', features: ['Sacred', 'Traditional', 'Minimalist'] },
-  { id: 8, title: 'Functional Home Office Designs', category: 'Functional Areas', featured: false, image: '/optimized-images/transforming/4cd0606eab783091f27ecf06032002af.webp', features: ['Ergonomic', 'Productivity', 'Organization'] },
-  { id: 9, title: 'End-to-End Home Interiors', category: 'Premium Designs', featured: true, image: '/Living_Room_Main_dius4h.jpg.jpeg', features: ['Complete Solutions', 'Cohesive Design', 'Full Service'] },
+  { id: 1, title: 'Modular Kitchens', category: 'Functional Areas', featured: true, image: '/island-kitchen.png', features: ['Modern', 'Storage Solutions', 'Custom Design'] },
+  { id: 2, title: 'Pooja Units', category: 'Premium Designs', featured: true, image: '/poojacard.jpg', features: ['Sacred', 'Traditional', 'Modern'] },
+  { id: 3, title: 'TV Units', category: 'Living Spaces', featured: true, image: '/portfolio-new/TV Unit..jpg', features: ['Entertainment', 'Sleek', 'Lighting'] },
+  { id: 4, title: 'Wardrobes', category: 'Private Spaces', featured: false, image: '/portfolio-new/MBR Wardrobe.jpg', features: ['Organization', 'Elegance', 'Custom'] },
+  { id: 5, title: 'Foyer Designs', category: 'Living Spaces', featured: false, image: '/portfolio-new/Entrance View.jpg', features: ['Grand Entry', 'Statement', 'Invite'] },
+  { id: 6, title: 'Functional kids room', category: 'Premium Designs', featured: false, image: '/optimized-images/transforming/3D Docket_page-0024.webp', features: ['Playful', 'Safe', 'Smart Storage'] },
+  { id: 7, title: 'CNC doors & Curtains', category: 'Premium Designs', featured: false, image: '/portfolio-new/CNC Door Design.jpg', features: ['Artistic', 'Intricate', 'Complete'] },
+  { id: 8, title: 'False Ceilings', category: 'Functional Areas', featured: false, image: '/portfolio-new/False Ceiling View...jpg', features: ['Ambient', 'Modern', 'Style'] },
 ]
 
 const categories = ['All', 'Living Spaces', 'Private Spaces', 'Functional Areas', 'Premium Designs']

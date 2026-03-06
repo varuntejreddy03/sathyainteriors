@@ -41,10 +41,12 @@ const Footer = () => {
             <h3 className="footer-heading">Services</h3>
             <ul className="footer-links">
               <li><Link to="/services">Modular Kitchens</Link></li>
-              <li><Link to="/services">Pooja Units</Link></li>
+              <li><Link value="Pooja Units" to="/services">Pooja Units</Link></li>
               <li><Link to="/services">TV Units</Link></li>
               <li><Link to="/services">Wardrobes</Link></li>
-              <li><Link to="/services">CNC Doors & Curtains</Link></li>
+              <li><Link to="/services">Functional kids room</Link></li>
+              <li><Link to="/services">CNC doors & Curtains</Link></li>
+              <li><Link to="/services">False Ceilings</Link></li>
             </ul>
           </div>
 

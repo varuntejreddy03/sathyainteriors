@@ -28,13 +28,16 @@ function About() {
           </div>
           <div>
             <span className="label-caps">OUR STORY</span>
-            <h2 className="section-heading" style={{ fontSize: '2.5rem', marginBottom: '20px' }}>We Don't Just Design — We Create Homes That Feel Like You</h2>
+            <h2 className="section-heading" style={{ fontSize: '2.5rem', marginBottom: '20px' }}>Precision-Crafted Interiors for Modern Living</h2>
             <div style={{ width: '40px', height: '2px', background: 'var(--gold)', margin: '25px 0' }}></div>
             <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--gray)', fontFamily: 'var(--font-body)', marginBottom: '20px' }}>
-              At Sathya Interiors, we believe every space tells a story. We specialize in interiors that reflect personality, purpose, and timeless design. From concept to completion, every detail is thoughtfully crafted to enhance your lifestyle.
+              Sathya Interiors is driven by a passion for design and a commitment to quality. We specialize in residential interiors including 2BHK, 3BHK, 4BHK apartments and luxury villas, delivering elegant and functional living spaces.
+            </p>
+            <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--gray)', fontFamily: 'var(--font-body)', marginBottom: '20px' }}>
+              With advanced modular manufacturing facility, we design and produce precision-crafted interiors using factory-made modular components, high-quality boards, CNC cutting technology, edge banding, and professional finishing systems. This ensures accurate measurements, superior durability, and flawless installation.
             </p>
             <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--gray)', fontFamily: 'var(--font-body)' }}>
-              With over 250 completed projects and 10+ years of expertise, we've mastered the art of blending functionality with aesthetics. Our team of skilled designers and craftsmen work tirelessly to bring your vision to life.
+              From modular kitchens and wardrobes to false ceilings, TV units, pooja units, storage solutions, and complete home interiors, our expert team manages every stage — design, factory production, and on-site installation — with precision and care.
             </p>
           </div>
         </div>
