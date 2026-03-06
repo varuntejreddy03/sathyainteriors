@@ -4,7 +4,7 @@ const PoojaUnitsHighlight = () => {
   const poojaUnits = [
     { id: 1, image: '/poojacard.jpg', alt: 'Pooja Unit Left' },
     { id: 2, image: '/shiva godimage.jpg', alt: 'Shiva Pooja Unit' },
-    { id: 3, image: '/newpooja1.jpg', alt: 'Pooja Unit Right' }
+    { id: 3, image: '/pooja-om-backlit.png', alt: 'Premium Om Backlit Pooja Unit' }
   ]
 
   return (
