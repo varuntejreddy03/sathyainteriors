@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flower2, Tv, ChefHat, Shirt, Baby, DoorOpen, Layout, Grid, ArrowLeft } from 'lucide-react'
+import { Flower2, Tv, ChefHat, Shirt, Baby, DoorOpen, Layout, Grid, Palette, ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 function Services() {
@@ -12,6 +12,7 @@ function Services() {
     { icon: <Baby size={48} />, title: 'Functional kids room', desc: 'Playful, safe, and smart storage designs tailored for growing children.' },
     { icon: <DoorOpen size={48} />, title: 'CNC doors & Curtains', desc: 'Precision-crafted doors and high-quality curtain installations for a complete look.' },
     { icon: <Grid size={48} />, title: 'False Ceilings', desc: 'Elegant ceiling designs with ambient lighting to transform the mood of any room.' },
+    { icon: <Palette size={48} />, title: 'Painting and Wallpapers', desc: 'Premium wall finishes and curated wallpaper collections that add personality to your home.' },
   ]
 
   return (

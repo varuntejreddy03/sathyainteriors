@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Instagram, Facebook, Linkedin } from 'lucide-react'
+import { Instagram } from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -14,12 +14,6 @@ const Footer = () => {
             <div className="footer-socials">
               <a href="https://www.instagram.com/sathya_interiors/" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <Instagram size={20} />
-              </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <Facebook size={20} />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <Linkedin size={20} />
               </a>
             </div>
           </div>

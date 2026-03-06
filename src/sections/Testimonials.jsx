@@ -3,7 +3,7 @@ import { Star } from 'lucide-react'
 
 const testimonials = [
   {
-    name: 'S R Radhha',
+    name: 'S R Radha',
     location: 'Puttaparthi',
     text: 'Sathya Interiors transformed our home beautifully. The attention to detail was exceptional. Every corner reflects elegance and thoughtful design.',
     image: '/Bedroom_-_Main_tstccu.jpg.jpeg'
