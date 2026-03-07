@@ -60,12 +60,12 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-credits">
             Made with <span className="heart">❤️</span> by{' '}
-            <span className="staffarc-link">
+            <a href="https://www.staffarc.in/" target="_blank" rel="noopener noreferrer" className="staffarc-link">
               <img src="/staffarc-logo.png" alt="StaffArc" className="staffarc-logo" />
               <span className="staffarc-text">StaffArc</span>
-            </span>
+            </a>
           </div>
-          <p>© 2026 sathyainteriors.com. All rights reserved.</p>
+          <p>© 2026 <a href="https://sathyainteriors.com" className="copyright-link">sathyainteriors.com</a>. All rights reserved.</p>
         </div>
       </div>
 
@@ -207,6 +207,11 @@ const Footer = () => {
           display: flex;
           align-items: center;
           gap: 5px;
+          text-decoration: none;
+        }
+
+        .staffarc-link:hover .staffarc-text {
+          text-decoration: underline;
         }
 
         .staffarc-logo {
@@ -224,6 +229,15 @@ const Footer = () => {
           color: #a0a0a0;
           font-family: var(--font-body);
           font-size: 0.85rem;
+        }
+
+        .copyright-link {
+          color: #a0a0a0;
+          text-decoration: none;
+        }
+
+        .copyright-link:hover {
+          color: var(--gold);
         }
 
         @media (max-width: 992px) {
