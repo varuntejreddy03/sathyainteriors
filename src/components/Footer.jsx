@@ -58,7 +58,14 @@ const Footer = () => {
         <div className="footer-divider"></div>
 
         <div className="footer-bottom">
-          <p>© 2026 Sathya Interiors. All Rights Reserved.</p>
+          <div className="footer-credits">
+            Made with <span className="heart">❤️</span> by{' '}
+            <span className="staffarc-link">
+              <img src="/staffarc-logo.png" alt="StaffArc" className="staffarc-logo" />
+              <span className="staffarc-text">StaffArc</span>
+            </span>
+          </div>
+          <p>© 2026 sathyainteriors.com. All rights reserved.</p>
         </div>
       </div>
 
@@ -175,10 +182,46 @@ const Footer = () => {
 
         .footer-bottom {
           text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 12px;
+        }
+
+        .footer-credits {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 6px;
+          color: #a0a0a0;
+          font-family: var(--font-body);
+          font-size: 1rem;
+        }
+
+        .heart {
+          color: #ff3366;
+          display: inline-block;
+        }
+
+        .staffarc-link {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+
+        .staffarc-logo {
+          height: 20px;
+          width: auto;
+          object-fit: contain;
+        }
+
+        .staffarc-text {
+          color: #e67e22; /* StaffArc Orange */
+          font-weight: 600;
         }
 
         .footer-bottom p {
-          color: var(--gray);
+          color: #a0a0a0;
           font-family: var(--font-body);
           font-size: 0.85rem;
         }
